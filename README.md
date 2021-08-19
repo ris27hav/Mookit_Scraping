@@ -5,3 +5,18 @@ I used *requests* to get the source code of the website from a downloaded html f
 At the time of writing, the dynamic mode has some problem scraping the required data, though it retrieves the correct html file. I had earlier used *BeautifulSoup* and then it worked. But it needs debugging to get working with *ReGeX*.
 
 This script is able to scrape the lecture title, week number, lecture number, lecture link, and lecture duation from the website. I will try to fix the dynamic mode if time permits.
+
+### Usage
+
+```python
+usage: scrape.py [-h] [-n NUM_LECS] [-s START_FROM] [--url URL] [--mode MODE] [--path PATH]
+optional arguments:
+  -h, --help            show this help message and exit
+  -n NUM_LECS, --num_lecs NUM_LECS
+                        number of lectures to scrap details
+  -s START_FROM, --start_from START_FROM
+                        start scraping from lecture number
+  --url URL             url of the lecture to scrap
+  --mode MODE           mode of scraping
+  --path PATH           path to chrome driver
+```
