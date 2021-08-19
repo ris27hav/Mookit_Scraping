@@ -6,7 +6,8 @@ At the time of writing, the dynamic mode has some problem scraping the required 
 
 This script is able to scrape the lecture title, week number, lecture number, lecture link, and lecture duation from the website. I will try to fix the dynamic mode if time permits.
 
-### Usage
+
+## Usage
 
 ```python
 usage: scrape.py [-h] [-n NUM_LECS] [-s START_FROM] [--url URL] [--mode MODE] [--path PATH]
